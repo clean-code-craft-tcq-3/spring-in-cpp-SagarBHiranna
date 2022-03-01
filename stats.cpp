@@ -1,6 +1,9 @@
 #include "stats.h"
 #include <math.h>
 
+//#include <iostream>
+
+
 Stats Statistics::ComputeStatistics(const std::vector<float>& vector_ref) {
     //Implement statistics here
     Stats struct_variable;
