@@ -25,7 +25,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vector_ref) {
             {
                 struct_variable.max = vector_ref[i];
             }
-            if (vector_ref[i] < struct_variable.max)
+            if (vector_ref[i] < struct_variable.min)
             {
                 struct_variable.min = vector_ref[i];
             }
